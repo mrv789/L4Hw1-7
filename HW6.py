@@ -1,9 +1,11 @@
+# task 1
 from itertools import count
 
 my_cont = count(int(input('put number: ')))
 for i in range(10):
     print(next(my_cont))
 
+# task 2
 
 import random
 from itertools import cycle
