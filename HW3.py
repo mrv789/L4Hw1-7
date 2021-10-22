@@ -1,3 +1,3 @@
-my_list_new = [el for el in range(20, 240) if el % 20 == 0 or el % 21 == 0]
+my_list_new = [i for i in range(20, 241) if i % 20 == 0 or i % 21 == 0]
 
 print(my_list_new)
